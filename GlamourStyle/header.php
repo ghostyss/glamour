@@ -20,27 +20,15 @@
         <link rel="stylesheet" href="css/icon.min.css"/>
         <link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet" href="css/responsive.css"/>
-        <link rel="stylesheet" href="demos/fashion-store/fashion-store.css" />
+        <link rel="stylesheet" href="demos/fashion-store/fashion-store.css?v=1" />
     </head>
     <body data-mobile-nav-style="classic">
         <!-- start header -->
         <header class="header-with-topbar">
-            <!-- start header top bar -->
-            <div class="header-top-bar top-bar-light bg-base-color disable-fixed md-border-bottom border-color-transparent-dark-very-light">
-                <div class="container-fluid">
-                    <div class="row h-40px align-items-center m-0">
-                        <div class="col-12 justify-content-center alt-font fs-13 fw-500 text-uppercase">
-                            <div class="text-dark-gray">Enjoy FREE standard delivery on orders over $100.</div>
-                            <a href="#" class="text-dark-gray fw-600 ms-5px text-dark-gray-hover"><span class="text-decoration-line-bottom">Shop now</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end header top bar -->
             <!-- start navigation -->
-            <nav class="navbar navbar-expand-lg header-light bg-white disable-fixed center-logo">
+            <nav class="navbar navbar-expand-lg header-dark bg-black responsive-sticky center-logo">
                 <div class="container-fluid">
-                    <div class="col-auto col-xxl-3 col-lg-2 menu-logo">  
+                    <div class="col-auto col-xxl-2 col-lg-2 menu-logo">  
                         <div class="header-icon d-none d-lg-flex"> 
                             <div class="widget-text icon alt-font">
                                 <a href="demo-fashion-store-contact.html"><i class="feather icon-feather-map-pin d-inline-block me-5px"></i><span class="d-none d-xxl-inline-block">Find stores</span></a>
@@ -49,13 +37,13 @@
                                 <a href="https://www.instagram.com/" target="_blank"><i class="feather icon-feather-instagram d-inline-block me-5px"></i><span class="d-none d-xxl-inline-block">100k Followers</span></a>
                             </div>
                         </div> 
-                        <a class="navbar-brand" href="demo-fashion-store.html">
-                            <img src="images/demo-fashion-store-logo-black.png" data-at2x="images/demo-fashion-store-logo-black@2x.png" alt="" class="default-logo">
-                            <img src="images/demo-fashion-store-logo-black.png" data-at2x="images/demo-fashion-store-logo-black@2x.png" alt="" class="alt-logo">
-                            <img src="images/demo-fashion-store-logo-black.png" data-at2x="images/demo-fashion-store-logo-black@2x.png" alt="" class="mobile-logo">
+                        <a class="navbar-brand" href="index.php">
+                            <img src="img/logo2.png" data-at2x="images/demo-fashion-store-logo-black@2x.png" alt="" class="default-logo">
+                            <img src="img/logo2.png" data-at2x="images/demo-fashion-store-logo-black@2x.png" alt="" class="alt-logo">
+                            <img src="img/logo2.png" data-at2x="images/demo-fashion-store-logo-black@2x.png" alt="" class="mobile-logo">
                         </a>   
                     </div>
-                    <div class="col-auto col-xxl-6 col-lg-8 menu-order">
+                    <div class="col-auto col-xxl-8 col-lg-8 menu-order">
                         <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
                             <span class="navbar-toggler-line"></span>
                             <span class="navbar-toggler-line"></span>
@@ -65,7 +53,7 @@
                         <div class="collapse navbar-collapse justify-content-between" id="navbarNav"> 
                             <ul class="navbar-nav alt-font navbar-left justify-content-end">
                                 <li class="nav-item">
-                                    <a href="demo-fashion-store.html" class="nav-link">Home</a>
+                                    <a href="index.php" class="nav-link">Home</a>
                                 </li>
                                 <li class="nav-item dropdown submenu">
                                     <a href="demo-fashion-store-shop.html" class="nav-link">Shop</a>
@@ -239,7 +227,7 @@
                             </ul>
                         </div>
                     </div> 
-                    <div class="col-auto col-xxl-3 col-lg-2 text-end">
+                    <div class="col-auto col-xxl-2 col-lg-2 text-end">
                         <div class="header-icon">
                             <div class="header-search-icon icon alt-font">
                                 <a href="javascript:void(0)" class="search-form-icon header-search-form"><i class="feather icon-feather-search me-5px"></i><span class="d-none d-xxl-inline-block">Search</span></a>

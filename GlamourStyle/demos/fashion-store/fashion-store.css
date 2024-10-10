@@ -27,10 +27,13 @@ a:hover {
 }
 /* header */
 header .navbar-brand img {
-    max-height: 34px;
+    max-height: 100px;
+    vertical-align: text-top !important;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 header .navbar-brand {
-    padding: 22px 0;
+    padding: 0px 0;
 }
 .navbar.center-logo .navbar-nav .nav-link {
     padding: 29px 20px;
