@@ -18,7 +18,7 @@
         <!-- style sheets and font icons  -->
         <link rel="stylesheet" href="css/vendors.min.css"/>
         <link rel="stylesheet" href="css/icon.min.css"/>
-        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/style.css?v=3"/>
         <link rel="stylesheet" href="css/responsive.css"/>
         <link rel="stylesheet" href="demos/fashion-store/fashion-store.css?v=1" />
     </head>
