@@ -7138,7 +7138,7 @@ header.sticky .navbar.disable-fixed {
   word-break: normal;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  color: var(--white);
+  color: var(--yellow);
 }
 .navbar .navbar-nav .nav-link .label {
   display: inline-block;
@@ -7719,7 +7719,7 @@ header.sticky .navbar.disable-fixed {
 .header-icon .icon > a {
   padding-left: 16px;
   font-size: 17px;
-  color: var(--white);
+  color: var(--yellow);
 }
 .header-icon .icon > a:hover {
   color: var(--white);
@@ -7741,7 +7741,7 @@ header.sticky .navbar.disable-fixed {
 }
 .header-icon .icon .header-language > a, .header-icon .icon .header-cart > a, .header-icon .icon .header-account > a {
   padding-left: 14px;
-  color: var(--white);
+  color: var(--yellow);
   font-size: 17px;
 }
 .header-icon .icon .header-language > a:hover, .header-icon .icon .header-cart > a:hover, .header-icon .icon .header-account > a:hover {
