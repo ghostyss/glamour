@@ -16,6 +16,7 @@
  * @link         http://codecanyon.net/item/php-login-user-management/49008
  */
 include_once( 'generic.class.php' );
+include_once( 'config.php' );
 
 class Check extends Generic {
 

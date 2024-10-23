@@ -54,9 +54,9 @@ class Connect {
 	public function dbConn() {
 
 		include(dirname(__FILE__) . '/config.php');
-
+                $config = new config();
 		try {
-			self::$dbh = new PDO("mysql:host={$host};dbname={$dbName}", $dbUser, $dbPass);
+			self::$dbh = new PDO("mysql:host={$config->Cnf['Host']};dbname={$config->Cnf['DbName']}", $config->Cnf['User'], $config->Cnf['Pass']);
 			self::$dbh->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING );
 		} catch (PDOException $e) {
 			return '<div class="alert alert-error">'._('Database error: '). $e->getMessage() . '</div>';
